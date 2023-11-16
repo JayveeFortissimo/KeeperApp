@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+
+body{
+
+overflow-x: hidden;
+background-color: rgb(235, 234, 234);
+}
+
+nav{
+    height: 5rem;
+    width: 100%;
+    background-color: rgb(255, 196, 54);
+    position: sticky;
+    top: 1px;
+    z-index: 2;
+   
+}
+
+h1{
+    padding: 20px;
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.Parent{
+    height: auto;
+    width: 30rem;
+    border-radius: 10px;
+  padding: 20px;
+  flex-shrink: 0px;
+  margin-top: 100px;
+  background-color: white;
+
+}
+
+form input{
+    height: 2rem;
+    width: 30rem;
+    margin: 20px 0px 0px 0px;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+
+
+
+
+.CARDSi{
+    height: auto;
+    width: 15rem;
+    border-radius: 10px;
+padding: 20px;
+background-color: white;
+
+}
+
+form h1{
+    color: black;
+}
+
+dt{
+    font-size: 1.4rem;
+}
+
+
+.Infos{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#btn{
+    height: 2rem;
+    position: relative;
+    top: 3rem;
+    left: 40rem;
+    transform: translate(-50%, -50%);
+}
+
+#btn button{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color:  rgb(255, 196, 54);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+ 
+}
+
+.BTNS{
+    margin-top: 20px;
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.secret{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:600px)  {
+
+    
+.Parent{
+    width: 16rem;
+}
+
+
+#btn{
+    top: 3rem;
+    left: 21rem;
+}
+
+
+form input{
+    height: 2rem;
+    width: 15rem;
+    margin: 20px 0px 0px 0px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+
+
+body{
+    
+overflow-x: hidden;
+
+}
+
+    
+}
